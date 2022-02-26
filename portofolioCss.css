@@ -1,0 +1,222 @@
+    html{
+    box-sizing: border-box;
+    font-family: "proxima-nova", "Helvetica", arial, sans-serif;
+    font-weight: 400;
+    color: #f8e8e8;
+    background-color: #000000;
+    width: 95%;
+    margin-left: 1%;
+    margin-right: 3%;
+    }
+    .Active{
+        color: #fafafa;
+    }
+    .new-img{
+        max-width: 93%;
+        height: auto;
+        background-size: cover;
+        margin-top: 3%;   
+        margin-left: 3%;
+
+
+    }
+    ul{
+        list-style-type: none;
+        margin: 0%;
+        padding: 0;
+        overflow: hidden;
+        position: fixed;
+        top: 10;
+        width: 90%;
+        box-sizing: content-box;
+    }
+    li{
+        float: right;
+        display: inline;
+    }
+    li a{
+        display: inline;
+        color: rgb(102, 102, 102);
+        text-align: center;
+        padding: 6px 6px;
+        text-decoration: none;
+    }
+    li a:hover{
+        color: white;
+    }
+    .Name{
+        float: left;
+        color: white;
+    }
+    .Highlights{
+        margin-top: 20%;
+
+    }
+    .Highlights .season{
+        color: orange;
+        font-size: 1.6rem;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: auto;
+    }
+    .Highlights .july{
+        font-size: larger;
+        color: #fafafa;
+        margin-top: 0;
+    }
+    .wins{
+        font-size: 1.7rem;
+        font-family: sans-serif;
+        font-weight: 90;
+        margin-top: 20%;
+
+    }
+    .Highlights .details{
+        margin-right: 30%;
+        color: white;
+        word-spacing: 1px;
+        white-space: inherit;
+    }
+    #GameOn{
+        margin-top: 15%;
+    }
+    #GameOn .Game-On{
+        color: orangered;
+    }
+    #GameOn .Ronaldo{
+         width: 100%;
+         height: auto;
+         display: block;
+    }
+    #NewsLetter{
+        margin-top: 20%;
+        color: azure;
+        text-align: center;
+
+    }
+    #NewsLetter .news{
+        font-size: 1.9 rem;
+        font-style: bold;
+        font-family: sans-serif;
+        margin-bottom: 4%;
+    }
+    #NewsLetter p{
+        white-space: normal;
+        margin-right: 28%;
+        margin-left: 35%;
+        text-align: center;
+    }
+    .new-box{
+        color:azure;
+        font-size: 1.1rem;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    #NewsLetter a{
+        color: azure;
+    }
+    input[type="checkbox"]{
+        box-sizing: inherit;
+        border: 2px solid orangered;
+        display: inline;
+        background-color: CanvasText;
+    }
+    #NewsLetter .new-btn{
+        background-color:orangered;
+        border-radius: 990px;
+        border: 0;
+        margin: 1%;
+        padding: 15px 80px;
+        font-size: 15px;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 24px;
+        opacity: 1;
+        outline: 0 solid transparent;
+        touch-action: manipulation;
+        width: fit-content;
+    }
+        #NewsLetter .new-btn:hover{
+            background-color:red;
+    }
+        #NewsLetter .new-mail{
+        border-radius: 990px;   
+        background-color: black;
+        border: 2px solid orangered;
+        padding: 15px 80px;
+        font-size: 15px;
+        color: #f8e8e8;
+        outline: 1 solid white;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 24px;
+        touch-action: manipulation;
+        width: fit-contentS;
+    }
+        .social-icon{
+            text-align: center;
+        }
+        .social-icon .fa {
+        padding: 5px;
+        font-size: 20px;
+        width: 20px;
+        text-decoration: none;
+    }
+
+        .social-icon .fa:hover {
+            opacity: 0.7;
+    }
+
+        .social-icon .fa-facebook {
+        background: black;
+        color: white;
+    }
+
+        .social-icon .fa-twitter {
+        background: black;
+        color: white;
+    }
+    .social-icon .fa-instagram {
+        background: black;
+        color: white
+
+    }
+    #Partners{
+        text-align: center;
+        margin-top: 20%;
+        font-size: 1.4rem;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        font-style: inherit;
+    }
+    #Partners img{
+        display: inline-block;
+        margin-top: 7%;
+        margin-bottom: 30%;
+        height: max-content;
+        width: max-content;
+    }
+    footer{
+        display: inline;
+        color: wheat;
+    }
+    footer a{
+        display: inline;
+        color: bisque;
+    }
+    footer a:hover{
+        color: #FFFFFF;
+    }
+    .footer-cls ul{
+        color: aqua;
+        display: inline;
+        float: inherit;
+    }
+    .footer-cls ul li{
+        list-style-type: none;
+    }
+    .footer-cls ul li a{
+        color: #f8e8e8;
+    }
+    .footer-cls ul li h2{
+        color: aliceblue;
+    }
